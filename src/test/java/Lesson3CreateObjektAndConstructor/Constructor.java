@@ -3,7 +3,7 @@ package Lesson3CreateObjektAndConstructor;
 public class Constructor {
     //Constructor(){}//Default constructor ,made automatically for Java
 
-    Constructor(String color, String engine){//Constructor with parameters, User defined
+    public Constructor(String color, String engine){//Constructor with parameters, User defined
         this.color = color;
         this.engine = engine;
     }

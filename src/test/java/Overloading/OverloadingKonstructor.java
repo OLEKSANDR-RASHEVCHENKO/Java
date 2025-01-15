@@ -1,6 +1,6 @@
-package Overloading;
+﻿package Overloading;
 
-public class OverloadingKonstructor {
+public class  OverloadingKonstructor {
     int id;
     String surname;
     int age;
@@ -8,11 +8,11 @@ public class OverloadingKonstructor {
     String department;
 
     OverloadingKonstructor(int id1, String surname1, int age1) {
-        this(id1, surname1, age1,0.0,null);// Вызываю с третьего конструктора
+        this(id1, surname1, age1,0.0,null);   // Вызываю с третьего конструктора
     }
 
     OverloadingKonstructor(String surname2, int age2) {
-        this(0, surname2, age2,0.0,null);// Вызываю с третьего конструктора
+        this(0, surname2, age2,0.0,null);   // Вызываю с третьего конструктора
     }
 
     OverloadingKonstructor(int id3, String surname3, int age3, double salary3, String department3) {

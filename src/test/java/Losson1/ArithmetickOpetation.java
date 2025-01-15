@@ -20,10 +20,10 @@ public class ArithmetickOpetation {
         int g= 10;
         int h = 3;
         int i= g/h;
-        System.out.println(i);//  дробная часть усекается  если испоьщуем int а если дабл то будет показыватся
+        System.out.println(i);
 
         // %
-        System.out.println(g%h); // остаток от деления
+        System.out.println(g%h);
 
         // --/++
         int j = g-h++;
